@@ -1,0 +1,172 @@
+$iol-black-light: #2d2d2d;
+$iol-blue: #232d3d;
+$iol-green: #b2dbbf;
+$iol-green-dark: #4ea66a;
+$iol-yellow: #f4e956;
+$iol-grey-dark: #6d6d6d;
+$iol-grey: #7c878e;
+$iol-grey-light: #f3f3fb;
+$iol-white: #fff;
+$text-regular: "Co Text Regular";
+$text-light: "Co Text Light";
+$headline-light: "Co Headline Light";
+$headline-bold: "Co Headline Regular";
+
+// use names from styleguide
+$steel-grey: $iol-grey;
+$pale-teal: $iol-green;
+
+//-- nvb named theme colors
+$darker-blue: #001f24;
+$dark-blue: #0059a5;
+$lighter-blue: #dce7ef;
+$grey1: #333;
+$grey2: #888;
+$grey3: #f7f7f7;
+$saltbox-grey: #6d6875;
+$light-yellow: #fffce1;
+$notification-yellow: #fbe05d;
+
+$primary-action-blue: #0068b0;
+
+// new color pallette
+$midnight: #001f34;
+$danube: #6299c9; // the same as old $light-blue
+
+//need to discuss with design
+$green: #3c763d;
+$whitegrey: #ededed;
+
+/* BOOTSTRAP DEFAULT COLORS */
+
+$dpes-white:  #fff;
+$dpes-black:  #000;
+$dpes-red:    #d0011b;
+$dpes-yellow: #f1c40f;
+$dpes-green:  #1abc9c;
+$dpes-teal:   #5bc0de;
+$dpes-pink:   #ff5b77;
+$dpes-purple: #7c348b; // old purple
+
+$dpes-orange-hover:   #d77c1c;
+
+$dpes-gray-dark:      #292b2c;
+$dpes-gray:           #464a4c;
+$dpes-gray-light:     #636c72;
+$dpes-gray-lighter:   #eceeef;
+$dpes-gray-lightest:  #f7f7f7;
+
+// New design colors
+$dpes-water:          #5ba0b3;
+$dpes-blue:           #69b6cc;
+$dpes-orange:         #df8d2f;
+$dpes-orange-darker:  #cd7e23;
+$dpes-orange-darkest: #bd7421;
+$dpes-dark-grey:      #2e3233;
+
+/* TODO review all variabiles above */
+
+// Fonts
+$primary-font: ("Palanquin", Helvetica, Arial, sans-serif);
+$medium-font: ("Palanquin", Helvetica, Arial, sans-serif);
+$notification-font: ("Roboto Condensed", Helvetica, Arial, sans-serif);
+
+$project-images-folder: "/assets/iol/images/";
+$project-icons-folder: "/assets/iol/icons/";
+$project-licenses-folder: "/assets/iol/licenses/";
+
+// COMPONENTS
+$error-background-color: $iol-yellow;
+$error-background-image: -webkit-linear-gradient(118deg, $pale-teal 42%, $iol-yellow 42%);
+$error-body-background-color: #fff;
+$error-body-background-image: url("#{$project-images-folder}desks.png");
+$error-body-background-image-lg: url("#{$project-images-folder}desks-lg.png");
+$error-header-background-image: none;
+$error-header-background-image-lg: none;
+$error-header-height: 25%;
+$error-title-color: $pale-teal;
+$error-main-display: none;
+$error-description-font-size: 1.4rem;
+$error-description-font-size-lg: 1.2rem;
+$error-description-color: $iol-blue;
+$error-description-width: 80%;
+$error-footer-padding: 3rem;
+$error-footer-background-color: transparent;
+$error-footer-color: $steel-grey;
+
+$profile-pdf-link: $iol-green-dark;
+$profile-introduction-link: $iol-blue;
+$profile-introduction-link-hover: $iol-blue;
+$profile-introduction-text: $iol-blue;
+$profile-timeline-default-backgroundcolor: $iol-white;
+$profile-timeline-current-color: $iol-yellow;
+$profile-timeline-default-color: $iol-green;
+
+$apply-card-link-color: $iol-green-dark;
+$apply-cv-attachtment-text-color: $steel-grey;
+$apply-cv-attachtment-date-text-color: $steel-grey;
+$apply-cv-attachtment-selected-text-color: $iol-blue;
+$apply-cv-attachtment-selected-background-color: $pale-teal;
+$apply-cv-attachtment-icon-download: url("#{$project-icons-folder}download.svg");
+$apply-cv-attachtment-icon-download-selected: url("#{$project-icons-folder}download.svg");
+$apply-cv-attachtment-icon-selected: url("#{$project-icons-folder}checkmark.svg");
+
+$applied-title-desktop-font: 24px;
+$applied-title-mobile-font: 24px;
+$applied-title-color: $iol-grey;
+$applied-title-marginbottom: 40px;
+$applied-title-mobile-lineheight: normal;
+$applied-subtitle-mobile-font: 26px;
+$applied-leadparagraph-desktop-font: 16px;
+$applied-leadparagraph-mobile-font: 16px;
+$applied-paragraph-desktop-font: 16px;
+$applied-paragraph-mobile-font: 16px;
+$applied-paragraph-fontfamily: $text-regular;
+$applied-background-desktop-height: 229px;
+$applied-background-mobile-height: 0px;
+$applied-background-backgroundcolor: $iol-grey-light;
+
+$onepageboarding-background-color: inherit;
+$onepageboarding-card-background-color: $iol-green;
+$onepageboarding-link-color: $iol-green-dark;
+$onepageboarding-title-desktop-font: 33px;
+$onepageboarding-title-desktop-lineheight: inherit;
+$onepageboarding-title-mobile-font: 28px;
+$onepageboarding-title-mobile-lineheight: 36px;
+$onepageboarding-title-paragraph-font: 14px;
+$onepageboarding-title-paragraph-lineheight: 21px;
+
+$migration-form-select-desktop-top: 50px;
+$migration-form-select-mobile-top: 44px;
+
+$toggle-before-background-color: $iol-green;
+$toggle-after-background-color: $iol-grey;
+
+$spinner-background-color: $iol-blue;
+$card-shadow: #d3dbe7;
+
+$consent-generic-links-color: $iol-grey;
+$consent-generic-texts-color: $iol-grey;
+$consent-generic-texts-fontfamily: $text-light;
+$consent-generic-texts-fontsize: 15px !important;
+$consent-generic-texts-lineheight: 24px;
+
+$boarding-link-color: $iol-green-dark;
+$boarding-email-paragraph-lineheight: 18px;
+$boarding-background-color: $dpes-gray-lightest;
+$boarding-card-background-color: $iol-green;
+$boarding-title-desktop-font: 33px;
+$boarding-title-desktop-lineheight: inherit;
+$boarding-title-mobile-font: 28px;
+$boarding-title-mobile-lineheight: 36px;
+$boarding-title-mobile-paragraph-font: 14px;
+$boarding-title-mobile-paragraph-lineheight: 21px;
+$boarding-label-font: 14px;
+$boarding-label-marginbottom: 0;
+$boarding-secondarybutton-background: $iol-white;
+$boarding-secondarybutton-border: $iol-grey-dark;
+$boarding-secondarybutton-color: $iol-grey-dark;
+
+$readmore-collapsed-fadein-color: rgba(255, 255, 255, 0);
+$readmore-collapsed-fadeout-color: $iol-white;
+$readmore-color: $iol-blue;
