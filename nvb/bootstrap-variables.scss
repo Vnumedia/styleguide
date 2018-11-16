@@ -16,24 +16,24 @@
 //
 // Variable format should follow the `$component-modifier-state-property` order.
 
-$white: $dpes-white;
+$dpes-white: $dpes-white;
 $black: $dpes-black;
 
-$blue:    $dpes-blue;
+$blue:    $dpes-seafoam-blue;
 $indigo:  #6610f2;
 $purple:  $dpes-purple;
 $pink:    $dpes-pink;
 $red:     $dpes-red;
-$orange:  $dpes-orange;
+$orange:  $dpes-dull-orange;
 $yellow:  $dpes-yellow;
 $green: $dpes-green;
 $teal: $dpes-teal;
 $cyan:    #17a2b8;
 
-$primary: $dpes-orange;
+$primary: $dpes-dull-orange;
 $secondary: $dpes-gray-light;
 $success:  $dpes-green;
-$info: $dpes-blue;
+$info: $dpes-seafoam-blue;
 $warning: $dpes-yellow;
 $danger: $dpes-red;
 $light: $dpes-gray-lighter;
@@ -46,8 +46,8 @@ $gray-light: $dpes-gray-light;
 $gray-lighter: $dpes-gray-lighter;
 $gray-lightest: $dpes-gray-lightest;
 
-$brand-primary-darker: $dpes-orange-darker;
-$brand-primary-darkest: $dpes-orange-darkest;
+$brand-primary-darker: $dpes-brownish-orange;
+$brand-primary-darkest: $dpes-brownish-orange-two;
 
 // Options
 //
@@ -92,7 +92,7 @@ $sizes: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:       $white !default;
+$body-bg:       $dpes-white !default;
 $body-color:    $gray-dark !default;
 $inverse-bg:    $gray-dark !default;
 $inverse-color: $gray-lighter !default;
@@ -168,7 +168,7 @@ $headings-margin-bottom: ($spacer / 2) !default;
 $headings-font-family:   inherit !default;
 $headings-font-weight:   600 !default;
 $headings-line-height:   1.25 !default;
-$headings-color:         $dpes-blue !default;
+$headings-color:         $dpes-seafoam-blue !default;
 
 $display1-size: 6rem !default;
 $display2-size: 5.5rem !default;
@@ -218,8 +218,8 @@ $border-radius:          0.25rem !default;
 $border-radius-lg:       0.3rem !default;
 $border-radius-sm:       0.2rem !default;
 
-$component-active-color: $white;
-$component-active-bg:    $dpes-blue;
+$component-active-color: $dpes-white;
+$component-active-bg:    $dpes-seafoam-blue;
 
 $caret-width:            0.3em !default;
 
@@ -235,47 +235,47 @@ $btn-padding-x:                  20px !default;
 $btn-padding-y:                  0 !default;
 $btn-line-height:                43px !default;
 $btn-font-weight:                600;
-$btn-box-shadow:                 inset 0 1px 0 rgba($white, 0.15), 0 1px 1px rgba($black, 0.075) !default;
+$btn-box-shadow:                 inset 0 1px 0 rgba($dpes-white, 0.15), 0 1px 1px rgba($black, 0.075) !default;
 $btn-focus-box-shadow:           0 0 0 2px rgba($primary, 0.25) !default;
 $btn-active-box-shadow:          inset 0 3px 5px rgba($black, 0.125) !default;
 
-$btn-primary-color:              $white !default;
+$btn-primary-color:              $dpes-white !default;
 $btn-primary-bg:                 $primary !default;
 $btn-primary-border:             $btn-primary-bg !default;
 
-$btn-primary-hover-color:        $white !default;
+$btn-primary-hover-color:        $dpes-white !default;
 $btn-primary-hover-bg:           $brand-primary-darker !default;
 $btn-primary-hover-border:       $brand-primary-darker !default;
 
-$btn-primary-pressed-color:      $white !default;
+$btn-primary-pressed-color:      $dpes-white !default;
 $btn-primary-pressed-bg:         $brand-primary-darkest !default;
 $btn-primary-pressed-border:     $brand-primary-darkest !default;
 
 $btn-secondary-color:            $primary !default;
-$btn-secondary-bg:               $white !default;
+$btn-secondary-bg:               $dpes-white !default;
 $btn-secondary-border:           $primary !default;
 
 $btn-secondary-hover-color:      $brand-primary-darker !default;
-$btn-secondary-hover-bg:         $white !default;
+$btn-secondary-hover-bg:         $dpes-white !default;
 $btn-secondary-hover-border:     $brand-primary-darker !default;
 
 $btn-secondary-pressed-color:    $brand-primary-darkest !default;
-$btn-secondary-pressed-bg:       $white !default;
+$btn-secondary-pressed-bg:       $dpes-white !default;
 $btn-secondary-pressed-border:   $brand-primary-darkest !default;
 
-$btn-info-color:                 $white !default;
+$btn-info-color:                 $dpes-white !default;
 $btn-info-bg:                    $info !default;
 $btn-info-border:                $btn-info-bg !default;
 
-$btn-success-color:              $white !default;
+$btn-success-color:              $dpes-white !default;
 $btn-success-bg:                 $success !default;
 $btn-success-border:             $btn-success-bg !default;
 
-$btn-warning-color:              $white !default;
+$btn-warning-color:              $dpes-white !default;
 $btn-warning-bg:                 $warning !default;
 $btn-warning-border:             $btn-warning-bg !default;
 
-$btn-danger-color:               $white !default;
+$btn-danger-color:               $dpes-white !default;
 $btn-danger-bg:                  $danger !default;
 $btn-danger-border:              $btn-danger-bg !default;
 
@@ -308,7 +308,7 @@ $pagination-padding-y-lg:             0.75rem !default;
 $pagination-line-height:              1.25 !default;
 
 $pagination-color:                     $link-color !default;
-$pagination-bg:                        $white !default;
+$pagination-bg:                        $dpes-white !default;
 $pagination-border-width:              $border-width !default;
 $pagination-border-color:              #ddd !default;
 
@@ -316,12 +316,12 @@ $pagination-hover-color:               $link-hover-color !default;
 $pagination-hover-bg:                  $gray-lighter !default;
 $pagination-hover-border:              #ddd !default;
 
-$pagination-active-color:              $white !default;
+$pagination-active-color:              $dpes-white !default;
 $pagination-active-bg:                 $primary !default;
 $pagination-active-border:             $primary !default;
 
 $pagination-disabled-color:            $gray-light !default;
-$pagination-disabled-bg:               $white !default;
+$pagination-disabled-bg:               $dpes-white !default;
 $pagination-disabled-border:           #ddd !default;
 
 // MODAL
@@ -335,7 +335,7 @@ $card-border-radius:                $border-radius !default;
 $card-border-color:                 rgba($black, .125) !default;
 $card-inner-border-radius:          calc(#{$card-border-radius} - #{$card-border-width}) !default;
 $card-cap-bg:                       rgba($black, .03) !default;
-$card-bg:                           $white !default;
+$card-bg:                           $dpes-white !default;
 
 $card-img-overlay-padding:          1.25rem !default;
 

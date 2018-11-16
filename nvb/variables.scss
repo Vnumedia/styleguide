@@ -1,58 +1,58 @@
-//-- nvb named theme colors
-$darker-blue: #001f24;
-$dark-blue: #0059a5;
-$lighter-blue: #dce7ef;
-$grey1: #333;
-$grey2: #888;
-$grey3: #f7f7f7;
-$saltbox-grey: #6d6875;
-$light-yellow: #fffce1;
-$notification-yellow: #fbe05d;
+/*
+*   From styleguide
+*/
 
-$primary-action-blue: #0068b0;
+// Primary brand colour
+$dpes-dusty-blue:     #5ba0b3;
+$dpes-seafoam-blue:   #69b6cc;
+$dpes-dull-orange:    #df8d2f;
 
-// new color pallette
-$midnight: #001f34;
-$danube: #6299c9; // the same as old $light-blue
+// Other colours
+$dpes-brownish-orange:      #cd7e23;
+$dpes-brownish-orange-two:  #bd7421;
+$dpes-light-khaki:          #f2d6b6;
+$dpes-mango:                #ff9320;
 
-//need to discuss with design
-$green: #3c763d;
-$whitegrey: #ededed;
+// Greyshade / typography colours
+$dpes-dark-grey:      #2e3233;
+$dpes-gunmetal: #5c6466;
+$dpes-cool-grey: #969c9e;
+$dpes-silver: #BABEBF;
+$dpes-silver-two: #D9DDDE;
+$dpes-pale-grey: #edeff0;
 
-/* BOOTSTRAP DEFAULT COLORS */
+/*
+*   Other colours
+*/
 
+// Colors needed for bootstrap
 $dpes-white:  #fff;
 $dpes-black:  #000;
+$dpes-black-light: #030401;
 $dpes-red:    #d0011b;
 $dpes-yellow: #f1c40f;
 $dpes-green:  #1abc9c;
 $dpes-teal:   #5bc0de;
 $dpes-pink:   #ff5b77;
-$dpes-purple: #7c348b; // old purple
+$dpes-purple: #7c348b;
+$dpes-gray-dark: #292b2c;
+$dpes-gray: #464a4c;
+$dpes-grey-soft: #ced4da;
+$dpes-gray-light: #636c72;
+$dpes-gray-light2: #9b9b9b;
+$dpes-gray-lighter: #eceeef;
+$dpes-gray-lightest: #f7f7f7;
 
-$dpes-orange-hover:   #d77c1c;
 
-$dpes-gray-dark:      #292b2c;
-$dpes-gray:           #464a4c;
-$dpes-gray-light:     #636c72;
-$dpes-gray-lighter:   #eceeef;
-$dpes-gray-lightest:  #f7f7f7;
-
-// New design colors
-$dpes-water:          #5ba0b3;
-$dpes-blue:           #69b6cc;
-$dpes-orange:         #df8d2f;
-$dpes-orange-darker:  #cd7e23;
-$dpes-orange-darkest: #bd7421;
-$dpes-dark-grey:      #2e3233;
-
-/* TODO review all variabiles above */
+$text-color: $dpes-black-light;
+$font-family: Palanquin, Arial, Helvetica, sans-serif;
 
 // Fonts
 $primary-font: ("Palanquin", Helvetica, Arial, sans-serif);
 $medium-font: ("Palanquin", Helvetica, Arial, sans-serif);
 $notification-font: ("Roboto Condensed", Helvetica, Arial, sans-serif);
 
+// Pathes
 $project-images-folder: "/assets/nvb/images/";
 $project-icons-folder: "/assets/nvb/icons/";
 $project-licenses-folder: "/assets/nvb/licenses/";
