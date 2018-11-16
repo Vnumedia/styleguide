@@ -1,70 +1,36 @@
+// Colors
 $iol-black-light: #2d2d2d;
 $iol-blue: #232d3d;
+$iol-blue-grey: #3b4352;
 $iol-green: #b2dbbf;
 $iol-green-dark: #4ea66a;
+$iol-green-darker: #69a37c;
 $iol-yellow: #f4e956;
 $iol-grey-dark: #6d6d6d;
 $iol-grey: #7c878e;
+$iol-grey-soft: #ced4da;
 $iol-grey-light: #f3f3fb;
 $iol-white: #fff;
-$text-regular: "Co Text Regular";
-$text-light: "Co Text Light";
-$headline-light: "Co Headline Light";
-$headline-bold: "Co Headline Regular";
 
 // use names from styleguide
 $steel-grey: $iol-grey;
 $pale-teal: $iol-green;
 
-//-- nvb named theme colors
-$darker-blue: #001f24;
-$dark-blue: #0059a5;
-$lighter-blue: #dce7ef;
-$grey1: #333;
-$grey2: #888;
-$grey3: #f7f7f7;
-$saltbox-grey: #6d6875;
-$light-yellow: #fffce1;
-$notification-yellow: #fbe05d;
+$iol-success: #158639;
+$iol-success-pale: #e7f2eb;
+$iol-error: #ce001d;
+$iol-error-pale: #fae5e8;
+$iol-warning: #f4b856;
+$iol-warning-pale: #fdf7ee;
+$iol-info: #0000b2;
+$iol-info-pale: #e5e5f7;
 
-$primary-action-blue: #0068b0;
-
-// new color pallette
-$midnight: #001f34;
-$danube: #6299c9; // the same as old $light-blue
-
-//need to discuss with design
-$green: #3c763d;
-$whitegrey: #ededed;
-
-/* BOOTSTRAP DEFAULT COLORS */
-
-$dpes-white:  #fff;
-$dpes-black:  #000;
-$dpes-red:    #d0011b;
-$dpes-yellow: #f1c40f;
-$dpes-green:  #1abc9c;
-$dpes-teal:   #5bc0de;
-$dpes-pink:   #ff5b77;
-$dpes-purple: #7c348b; // old purple
-
-$dpes-orange-hover:   #d77c1c;
-
-$dpes-gray-dark:      #292b2c;
-$dpes-gray:           #464a4c;
-$dpes-gray-light:     #636c72;
-$dpes-gray-lighter:   #eceeef;
-$dpes-gray-lightest:  #f7f7f7;
-
-// New design colors
-$dpes-water:          #5ba0b3;
-$dpes-blue:           #69b6cc;
-$dpes-orange:         #df8d2f;
-$dpes-orange-darker:  #cd7e23;
-$dpes-orange-darkest: #bd7421;
-$dpes-dark-grey:      #2e3233;
-
-/* TODO review all variabiles above */
+$text-color: $iol-blue;
+$text-regular: "Co Text Regular";
+$text-light: "Co Text Light";
+$headline-light: "Co Headline Light";
+$headline-bold: "Co Headline Regular";
+$font-family: $text-light, Arial, Helvetica, sans-serif;
 
 // Fonts
 $primary-font: ("Palanquin", Helvetica, Arial, sans-serif);
@@ -74,3 +40,7 @@ $notification-font: ("Roboto Condensed", Helvetica, Arial, sans-serif);
 $project-images-folder: "/assets/iol/images/";
 $project-icons-folder: "/assets/iol/icons/";
 $project-licenses-folder: "/assets/iol/licenses/";
+
+// temp hack
+$dpes-seafoam-blue: $iol-blue;
+$dpes-white: #fff;
