@@ -7,15 +7,15 @@ Import in package.json inlcuding commit hash, so it will not download automatica
 "styleguide": "https://github.com/Vnumedia/styleguide#94ce9d1a30c84009b9bfe88c4e2bb946e3e0a89d"
 ```
 
-Import variables:
-*Nationalevacaturebank:*
+### Imports
+
+`nvb` = Nationalevacaturebank
+`int` = Intermediair
 ```
-"./node_modules/styleguide/nvb/variables"
-"./node_modules/styleguide/nvb/bootstrap-variables"
+@import "./node_modules/styleguide/mixins";
+@import "./node_modules/styleguide/(nvb|int)/variables";
+@import "./node_modules/styleguide/(nvb|int)/bootstrap-variables";
+@import "./node_modules/styleguide/(nvb|int)/components/type";
 ```
-*Intermediair:*
-```
-"./node_modules/styleguide/int/variables"
-"./node_modules/styleguide/int/bootstrap-variables"
-```
-If you don't use Bootstrap 4, do not import bootstrap variables.
+If you don't use Bootstrap 4, do not import `bootstrap-variables`
+If you don't want default headers styling, do not import `type`

@@ -8,13 +8,24 @@ body {
     line-height: 1.47;
   }
 }
+
 h1, .h1 {
+  color: $iol-blue;
+  font-family: $headline-light;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 60px;
+
   @include media-breakpoint-up(md) {
     font-size: 2.35rem;
     line-height: 1.1;
   }
 }
 h2, .h2 {
+  color: $iol-grey;
+  font-family: $headline-light;
+  font-size: 24px;
+  font-weight: 300;
   line-height: 1.3077;
   @include media-breakpoint-up(md) {
     font-size: 1.76rem;
