@@ -12,6 +12,7 @@ body {
 h1, h2, h3, h4, h5 {
   color: $dpes-dusty-blue;
   font-family: $primary-font;
+  font-weight: 300;
 }
 
 h1, .h1 {
@@ -40,6 +41,7 @@ h3, .h3 {
 }
 h4, .h4 {
   line-height: 1.3333;
+  font-weight: 600;
   @include media-breakpoint-up(md) {
     font-size: 1.176rem;
     line-height: 1.3;
