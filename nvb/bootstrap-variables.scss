@@ -92,8 +92,8 @@ $sizes: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:       $dpes-white !default;
-$body-color:    $gray-dark !default;
+$body-bg:       $dpes-white;
+$body-color:    $text-color;
 $inverse-bg:    $gray-dark !default;
 $inverse-color: $gray-lighter !default;
 
