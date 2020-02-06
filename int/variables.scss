@@ -24,18 +24,16 @@ $iol-warning: #f4b856;
 $iol-warning-pale: #fdf7ee;
 $iol-info: #17a2b8;
 $iol-info-pale: #e5e5f7;
-
 $text-color: $iol-blue;
+
+// Fonts
+$font-family-default: co-text, Helvetica, Arial, sans-serif;
+$font-family-heading: co-headline, Helvetica, Arial, sans-serif;
 $text-regular: "Co Text Regular";
 $text-light: "Co Text Light";
 $headline-light: "Co Headline Light";
 $headline-bold: "Co Headline Regular";
 $font-family: $text-light, Arial, Helvetica, sans-serif;
-
-$font-family-default: co-text, Helvetica, Arial, sans-serif;
-$font-family-heading: co-headline, Helvetica, Arial, sans-serif;
-
-// Fonts
 $notification-font: ("Roboto Condensed", Helvetica, Arial, sans-serif);
 
 // Paths

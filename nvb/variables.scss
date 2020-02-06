@@ -21,10 +21,6 @@ $dpes-silver: #BABEBF;
 $dpes-silver-two: #D9DDDE;
 $dpes-pale-grey: #edeff0;
 
-/*
-*   Other colours
-*/
-
 // Colors needed for bootstrap
 $dpes-white:  #fff;
 $dpes-black:  #000;
@@ -42,12 +38,11 @@ $dpes-gray-light: #636c72;
 $dpes-gray-light2: #9b9b9b;
 $dpes-gray-lighter: #eceeef;
 $dpes-gray-lightest: #f7f7f7;
-
-
 $text-color: $dpes-dark-grey;
-$font-family: Palanquin, Arial, Helvetica, sans-serif;
 
 // Fonts
+$font-family-default: $font-family;
+$font-family: Palanquin, Arial, Helvetica, sans-serif;
 $primary-font: ("Palanquin", Helvetica, Arial, sans-serif);
 $medium-font: ("Palanquin", Helvetica, Arial, sans-serif);
 $notification-font: ("Roboto Condensed", Helvetica, Arial, sans-serif);
